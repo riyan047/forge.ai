@@ -1,4 +1,5 @@
-import { projectsRouter } from "@/modules/projects/procedures";
+
+import { projectsRouter } from "@/modules/projects/server/procedures";
 import { createTRPCRouter } from "../init";
 
 import { messageRouter } from "@/modules/messages/procedures";
